@@ -1,6 +1,6 @@
 #include <iostream> // This line includes the input/output stream library, allowing input and output operations.
 
-struct Node {
+struct Node {     
     int data;
     Node* next;
 
