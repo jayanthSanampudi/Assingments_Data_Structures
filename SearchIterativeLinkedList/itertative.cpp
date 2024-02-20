@@ -7,7 +7,7 @@ struct Node {
 
     // Constructor to initialize a Node with given value and nullptr as next pointer
     Node(int val) : data(val), next(nullptr) {}
-};
+};    
 
 // Function to search for a target value iteratively in a linked list
 bool searchIterative(Node* head, int target) {
